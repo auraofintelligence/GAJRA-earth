@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAJRA Earth Ecosystem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0a1a;
+            --primary-glow: #00d4ff;
+            --secondary-glow: #00aaff;
+            --card-bg: rgba(20, 20, 40, 0.6);
+            --text-color: #e0e0e0;
+            --heading-color: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            background-image: radial-gradient(circle at 1% 1%, var(--secondary-glow) 0%, transparent 15%),
+                              radial-gradient(circle at 99% 99%, var(--primary-glow) 0%, transparent 20%);
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            color: var(--heading-color);
+            text-shadow: 0 0 15px var(--primary-glow);
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            max-width: 600px;
+            margin: 15px auto 0;
+            opacity: 0.8;
+        }
+
+        .ecosystem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--secondary-glow);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 170, 255, 0.2);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 35px rgba(0, 212, 255, 0.4);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            color: var(--primary-glow);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            color: var(--text-color);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <header>
+            <h1>G.A.J.R.A. Earth</h1>
+            <p>A Global Association for Joyful Responsible Abundance on Earth. Explore the interconnected initiatives building our protopian future.</p>
+        </header>
+
+        <div class="ecosystem-grid">
+            <!-- Card for G.A.J.R.A. Earth -->
+            <div class="card">
+                <h2>G.A.J.R.A. Earth</h2>
+                <p>A not-for-profit initiative harnessing volunteerism and XR technologies to address sustainable development goals and foster global unity.</p>
+            </div>
+
+            <!-- Card for Aura of Intelligence -->
+            <div class="card">
+                <h2>Aura of Intelligence</h2>
+                <p>An XR digital twin of a user's mind and body, integrating AI, blockchain, and IoT to augment human capabilities and well-being.</p>
+            </div>
+
+            <!-- Card for Live Aid 2025/2035 -->
+            <div class="card">
+                <h2>Live Aid 2025/2035</h2>
+                <p>Global art and music events to promote unity and enable collective voting on core values that will shape our future.</p>
+            </div>
+
+            <!-- Card for Gamify Democracy -->
+            <div class="card">
+                <h2>Gamify Democracy</h2>
+                <p>An initiative using gaming principles and generative AI to make the democratic process more interactive, engaging, and intelligent.</p>
+            </div>
+
+            <!-- Card for ICO & DAO -->
+            <div class="card">
+                <h2>ICO & DAO</h2>
+                <p>An Initial Coin Offering and a Decentralized Autonomous Organization to democratize investment and governance for the ecosystem.</p>
+            </div>
+
+            <!-- Card for Queens Venture Capital -->
+            <div class="card">
+                <h2>Queens Venture Capital</h2>
+                <p>A series of venture capital firms focused on empowering female entrepreneurship and addressing the gender disparity in VC funding.</p>
+            </div>
+
+            <!-- Card for Aura Innovation Labs -->
+            <div class="card">
+                <h2>Aura Innovation Labs</h2>
+                <p>Creative spaces within educational institutions to nurture the next generation of innovators using Aura of Intelligence technology.</p>
+            </div>
+
+            <!-- Card for Aura Smart Pod Hotels -->
+            <div class="card">
+                <h2>Aura Smart Pod Hotels</h2>
+                <p>High-tech capsule hotels with automation, XR, and AI, designed as hubs for rest, productivity, and collaboration.</p>
+            </div>
+
+            <!-- Card for Aura Entrepreneurs Co-Living -->
+            <div class="card">
+                <h2>Aura Entrepreneurs Co-Living</h2>
+                <p>A co-living network for entrepreneurs and volunteers to collaborate and foster a community of innovation and social impact.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 GAJRA Earth. Building a better tomorrow, today.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
